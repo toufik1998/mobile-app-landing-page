@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
+body{
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+}
+header{
+    background-image: url(../images/header-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+header .brand{
+    padding: 20px 10px;
+    margin: 80px auto 50px;
+    border-bottom: 5px solid #474c54;
+    display: inline-block;
+}
+header .page-heading h1{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 75px;
+    color: #fff;
+}
+header .page-heading p{
+    width: 40%;
+    font-size: 18px;
+    line-height: 25px;
+    color: #acacac;
+    margin: 0 auto;
+}
+header .counter .countdown-amount{
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffce00;
+    display: block;
+}
+header .counter .countdown-period{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    display: block;
+}
+header .counter .countdown-section{
+    display: inline-block;
+    margin: 0 20px;
+}
+header .counter{
+    margin: 60px auto;
+    padding: 30px;
+   /* border: #555 solid 5px;*/
+}
+header .send-notification p {
+  font-size: 18px;
+  color: #fff; 
+  font-weight: bold;
+}
+
+header .send-notification .input-group input,footer .input-group{
+  border-radius: 0;
+  font-size: 18px;
+  /*font-family: ar-font;*/
+  color: #e6e6e6;
+  border-width: 2px;
+  border-color: #e6e6e6; 
+  height: auto;
+}
+header .send-notification .input-group button,footer button{
+    border-radius: 0px;
+    padding: 0.1rem 1.1rem;
+    background-color: #ffce00;
+    border: none;
+}
+footer button{
+    background-color: #939393;
+}
+header .send-notification .input-group,footer .input-group{
+    width: 30%;
+    margin:  0 auto;
+}
+header .send-notification .input-group .alert,footer .alert{
+    display: none;
+    position: absolute;
+    top: 110%;
+    left: 0;
+    right: 0;
+}
+@media (max-width: 768px) {
+    .animate__bounceIn{
+      animation-name: none !important;
+    }
+    .animate__fadeInUp{
+      animation-name: none !important;
+    }
+    .animate__fadeInDown{
+      animation-name: none !important;
+    }
+    .animate__zoomIn{
+      animation-name: none !important;
+    }
+}
+section.features h2{
+    margin-bottom: 50px;
+    font-size: 45px;
+    font-weight: bold;
+    color: #555;
+}
+section.features{
+    padding: 100px 0;
+}
+section.features .media{
+    border: 4px solid #fafafa;
+    padding: 40px 10px;
+    margin: 20px;
+    height: 190px;
+}
+section.features .media .media-body h5{
+    font-size: 24px;
+    font-weight: bold;
+    color: #555;
+    height: 75px;
+}
+section.features .media .media-body p{
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 25px;
+    color: #9c9c9c;
+}
+section.features{
+    text-align: right;
+}
+footer{
+    background-image: url(../images/footer-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+footer .top-footer .overlay{
+    background-color: rgba(255, 204, 0, 0.7);
+    padding: 60px 0;
+}
+footer .top-footer .overlay h3{
+    font-size: 30px;
+    font-weight: bold;
+    width: 80%;
+    margin: 0 auto 30px;
+}
+footer .top-footer .overlay .input-group{
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+}
+footer .top-footer .overlay .input-group input{
+    border-radius: 0px;
+    font-size: 18px;
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+    color: #c7c7c7;
+    border-color: #fff;
+}
+footer .top-footer .overlay .input-group input:focus{
+    box-shadow: 0 0 0;
+    border-color: #fff;
+}
+footer .top-footer .overlay .input-group button{
+    border-radius: 0px;
+    background-color: #393933;
+    padding: 0.2rem 1.2rem;
+}
+footer .top-footer .overlay .input-group button:hover, footer .top-footer .overlay .input-group button:focus{
+    box-shadow: 0 0 0;
+    border-color: transparent;
+}
+footer .top-footer .overlay .alert{
+    display: none;
+    position: absolute;
+    top: 110%;
+    right: 0;
+    left: 0;
+}
+/*footer .top-footer .overlay .input-group input{
+    height: 0;
+}*/
+footer .contact{
+    background-color: rgba(28, 28, 28, 0.7);
+    padding: 60px 0 10px;
+    color: #fff;
+}
+footer .contact h3{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 auto 30px;
+}
+footer .contact ul li a{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.14);
+    color: #fff;
+}
+footer .contact ul li{
+    margin: 0 5px 10px;
+}
+footer .contact ul li a.facebook:hover{
+    background-color: #3b5999;
+}
+footer .contact ul li a.twitter:hover{
+    background-color: #55acee;
+}
+footer .contact ul li a.linkedin:hover{
+    background-color: #0077b5;
+}
+footer .contact ul li a.instagram:hover{
+    background-color: #e4405f
+}
+footer .contact hr{
+    width: 25%;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 50px;
+}
+footer .contact p a{
+    color: #b4b4b4;
+    font-weight: bold;
+}
+footer .contact p a i{
+    color: #ffce00;
+    margin-left: 5px;
+}
+footer .contact ul li a{
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.media-body{
+    min-width: 0;
+}
+@media (max-width: 770px){
+    footer .top-footer .overlay .input-group, header .send-notification .form-group .input-group{
+        width: 50%;
+    }
+}
+@media(max-width: 555px){
+    section.features .media .media-body p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
+}
